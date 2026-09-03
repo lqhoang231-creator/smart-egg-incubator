@@ -1,14 +1,14 @@
 #define Pin_ain1 17
 #define Pin_ain2 5
-#define Pin_pwma 15
+#define Pin_pwma 18
 #define Pin_stby 16
-const int servoPin = 18;
+const int servoPin = 13;
 const int channel = 0;
 unsigned long preMillis = 0;
-const long interval1 = 2000;
-const long interval2 = 5000;
+const long interval1 = 20000;
+const long interval2 = 15000;
 int n = 0;
-const int buttonPin = 4;
+const int buttonPin = 25;
 const int channel_motor = 4;
 
 int mode = 1;
